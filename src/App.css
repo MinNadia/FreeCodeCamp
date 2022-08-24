@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18 px;
+  background-color: #f5f6f7;
+}
+
+h1 {
+  max-width: 940px; /*ancho del titulo*/
+  font-size: 2.5em; /*tamaño de la letra, em uiere decir  es relativo al tamaño de letra del navegador*/
+  font-family: Lato, sans-serif; /*tipo de letra,si el browser no reconoce lato tiene sans.. de respaldo*/
+  font-weight: 700; /*grueso de la letra*/
+  line-height: 1.1;/*espacios de las lineas*/ 
+  margin: 40px 0;
+}
+
+.App {
+  min-height: 100vh; /*altura minima de la app, se adapta a la altura del navegador*/ 
+  display: flex;
+  flex-wrap: wrap; /*si los elementos ocupan el ancho del navegador el siguiente elemento se coloca abajo */
+  align-items: center; /*centra los elementos verticalmente*/
+  justify-content: center; /*se centra horizontalmente*/
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
